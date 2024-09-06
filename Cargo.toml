@@ -1,0 +1,10 @@
+[package]
+name = "rust-pool"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+deadpool-postgres = "0.14.0"
+testcontainers-modules = { version = "0.10.0", features = ["postgres"] }
+tokio = { version = "1.40.0", features = ["full"] }
+tokio-postgres = "0.7.11"
